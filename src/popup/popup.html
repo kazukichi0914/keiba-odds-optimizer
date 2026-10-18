@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ワイド買い目アドバイザー</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>重賞 ワイド買い目アドバイザー</h1>
+  <p id="race" class="race">レースを確認中…</p>
+
+  <form id="form">
+    <label>予算（円）
+      <input id="budget" type="number" min="100" step="100" value="3000" required>
+    </label>
+    <details>
+      <summary>詳細設定</summary>
+      <label>的中率の下限（%）<input id="minHit" type="number" min="0" max="100" step="1" value="35"></label>
+      <label>ワイドの割合の下限（%）<input id="minWide" type="number" min="0" max="100" step="5" value="50"></label>
+      <label>印の効き具合 k<input id="k" type="number" min="0" max="2" step="0.1" value="0.4"></label>
+    </details>
+    <button id="run" type="submit">計算する</button>
+  </form>
+
+  <div id="error" class="error" hidden></div>
+  <ul id="warnings" class="warnings"></ul>
+  <div id="result"></div>
+
+  <p class="notice">期待値は目安であり、的中や利益を保証しません。馬券の購入はご自身の判断で行ってください。</p>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

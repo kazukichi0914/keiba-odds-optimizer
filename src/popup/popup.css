@@ -1,0 +1,19 @@
+body { width: 380px; margin: 0; padding: 12px 14px; font: 13px/1.5 system-ui, -apple-system, "Hiragino Sans", sans-serif; color: #1f2328; background: #fff; }
+h1 { font-size: 15px; margin: 0 0 4px; }
+.race { margin: 0 0 10px; color: #57606a; }
+form label { display: block; margin: 6px 0; }
+input[type=number] { width: 100px; margin-left: 6px; }
+details { margin: 6px 0; }
+button { margin-top: 6px; padding: 6px 16px; font-size: 13px; cursor: pointer; }
+button:disabled { cursor: wait; opacity: .6; }
+.error { margin: 10px 0; padding: 8px; background: #ffebe9; border: 1px solid #ff8182; border-radius: 6px; }
+.warnings { padding-left: 18px; color: #9a6700; }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+th, td { padding: 4px 6px; border-bottom: 1px solid #d0d7de; text-align: left; }
+td.num, th.num { text-align: right; }
+.summary { margin-top: 8px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-weight: bold; }
+.badge.ok { background: #dafbe1; color: #1a7f37; }
+.badge.negative { background: #fff8c5; color: #9a6700; }
+.badge.none { background: #eaeef2; color: #57606a; }
+.notice { margin-top: 12px; font-size: 11px; color: #57606a; }
