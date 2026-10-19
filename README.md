@@ -3,3 +3,9 @@
 
 <img width="405" height="317" alt="20261018202020" src="https://github.com/user-attachments/assets/88eb93c4-ad3b-4301-a4cd-efff12b9daf3" />
 
+オプティマイザーが提示した推奨金額に基づいて購入を行った結果、総合で収支をプラスにすることができました。
+
+<img width="669" height="425" alt="unnamed (5)" src="https://github.com/user-attachments/assets/c254135e-c051-4f48-96d8-a3bbb4a3c8a4" />
+
+
+
